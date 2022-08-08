@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+
+}
+body{
+    background-color: #f0f2f5;
+}
+.parent-container{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+}
+.fb-logo{
+    margin-bottom: 9em;
+}
+.fb-logo img{
+    width: 60%;
+    margin-left: -20px;
+    
+
+}
+.fb-logo h2{
+    font-size: 18px;
+    color: #1C1E21;
+    line-height:1;
+    font-weight: normal;
+}
+form{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    max-width: 70%;
+    text-align: center;
+    padding:0.4em 0.6em;
+    margin-bottom: 9em;
+    
+}
+input{
+    padding: 14px 0px;
+    border-radius: 6px;
+    font-size: 10px;
+    border: 1px solid #dddfe2;
+    width: 100%;
+    margin: 0.4em;
+}
+input:focus {
+    outline:none;
+    border:1px solid blue;
+    box-shadow: 0px 0px 1px rgba(137, 137, 231, 0.5);
+}
+.password{
+    margin-bottom: 1em;
+}
+.Log-in{
+    display: inline;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+
+.Log-in a{
+    font-size:13px;
+    background-color:#1877f2;
+    color: white;
+    text-decoration-line: none;
+    border-radius: 5px;
+    width: 100%;
+    padding:0.7em 6em;
+    
+
+    
+}
+.forget{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.forget a{
+    color: #1877f2;
+    text-decoration-line: none;
+    font-size:10px;
+}
+.forget a:hover{
+    text-decoration-line: underline;
+}
+.btn{
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 10px;
+    
+}
+.btn button{
+    cursor: pointer;
+    background-color:#42B72A;
+    border: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+span{
+    font-size: 0.6em;
+    position: relative;
+    top: 40px;
+}
+
+@media screen and (max-width:700px){
+    [class*="col-"]{
+        width: 100%;
+        
+
+    }
+    .parent-container{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .logo{
+        display: flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .fb-logo{
+        margin-bottom:3em;
+    }
+}
