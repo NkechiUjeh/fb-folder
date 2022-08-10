@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica,;
+    
+}
+
+
+.header{
+    margin:2em 4em;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-style: italic;
+}
+.title h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.icon{
+    list-style-type: none;
+    
+}
+.icon li{
+    padding:25px;
+    color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
